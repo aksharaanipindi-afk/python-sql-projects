@@ -1,0 +1,31 @@
+# Employee Performance & Attendance Tracker
+
+A simple real-time project using **Python + SQL** to track employees, attendance, and performance.
+
+## 📌 Features
+- Employees database with attendance & performance
+- SQL queries for analytics
+- Python (Pandas + Matplotlib) for reporting and visualization
+
+## 🚀 How to Run
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+Create database & tables:
+
+python src/db_setup.py
+
+
+Insert sample data:
+
+python src/insert_data.py
+
+
+Run analysis:
+
+python src/analysis.py
+
+
+Visualize performance:
+
+python src/visualize.py
